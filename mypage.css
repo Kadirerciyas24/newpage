@@ -1,0 +1,563 @@
+.yourElement {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  body {
+    margin: 45;
+    color: rgb(245, 245, 245);
+    background-image: url(https://oceansolutions.stanford.edu/sites/g/files/sbiybj13371/f/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .MyPage0 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    padding: 0rem;
+    border-radius: 2rem;
+    font-family: "Orbitron", sans-serif;
+  }
+  
+  .font-family {
+    font-family: "Orbitron", sans-serif;
+  }
+  
+  .image123 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    border-radius: 0rem;
+    font-family: "Orbitron", sans-serif;
+  }
+  
+  .first-heading {
+    margin-top: 6rem;
+  }
+  
+  .the-text {
+    margin-top: 6rem;
+  }
+  
+  .white-text-with-black-shadow {
+    text-shadow: 5px 5px 5px black, 0 0 0.5em black, 0 0 0.5em black;
+    color: rgb(245, 245, 245);
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+  }
+  
+  ul {
+    background-color: orangered;
+    text-align: center;
+    font-size: 150%;
+    justify-content: center;
+    flex: 0;
+  
+    text-decoration-color: orange;
+  
+    border: 10px;
+  }
+  body {
+    background-color: black;
+  }
+  
+  h1 {
+    text-align: center;
+    color: turquoise;
+  }
+  
+  div {
+    color: olive;
+  }
+  
+  .my-4-webpage {
+    text-align: center;
+    background-color: orange;
+    color: purple;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: lawngreen;
+    margin-left: auto;
+  }
+  
+  #my-4-headline {
+    background-color: violet;
+    color: yellow;
+    margin-right: 250px;
+  }
+  
+  .my-first-webpage {
+    background-color: skyblue;
+    color: tomato;
+  }
+  
+  .box-model-test {
+    background-color: lawngreen;
+    /* width and height are for defining */
+    width: 80px;
+    height: 80px;
+    padding-left: 10px;
+    padding: 10px;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    border: 4px solid white;
+    border-radius: 10px 30px;
+    margin: 40px;
+  }
+  
+  .box-model-2 {
+    background-color: teal;
+    width: 30px;
+    height: 30px;
+    padding: 5px 5px;
+    border: 5px;
+    border-color: navy;
+  }
+  
+  .compare-model-test {
+    background-color: red;
+    color: white;
+    height: 80px;
+    width: 80px;
+  }
+  
+  .AGE {
+    background-color: yellow;
+    color: orchid;
+    width: 100px;
+    height: 120px;
+    padding: 25px 25px;
+    border: 10px;
+    border-color: red;
+    border-radius: 9999px;
+  }
+  
+  .who {
+    background-color: tomato;
+    color: red;
+    width: 100px;
+    height: 120px;
+    padding: 50px 50px;
+    border: 10px;
+    border-color: sienna;
+    border-radius: 500px;
+    margin: 20px auto;
+  }
+  
+  .where {
+    background-color: orchid;
+    color: rgb(122, 50, 50);
+    width: 100px;
+    padding: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .where1 {
+    background-color: chartreuse;
+    width: auto;
+    height: auto;
+    padding: 50px 50px;
+    border-radius: 9999px;
+    border: 8px dotted red;
+  }
+  body {
+    background-color: rgb(29, 18, 90);
+  }
+  
+  li {
+    font-size: green;
+    text-decoration-color: orange;
+    text-align: center;
+  }
+  h4 {
+    background-color: lime;
+    padding: 80px 85px;
+  }
+  
+  h3 {
+    background-color: cyan;
+    padding: 120px 80px 80px 150px;
+  }
+  
+  .box {
+    background-color: #567895;
+  }
+  
+  h2 {
+    background-color: black;
+    color: white;
+  }
+  span {
+    background-color: rgba(120, 120, 250, 4);
+  }
+  
+  img {
+    border: 5px solid red;
+    width: 120px;
+  }
+  
+  .box {
+    border: 4px solid rgb(120px, 120px, 1.8px);
+  }
+  
+  .box {
+    border: 5px solid darkblue;
+    width: 50%;
+    height: 120;
+  }
+  
+  .word {
+    border: 1px solid #333333;
+    width: 150px;
+    font-size: 250%;
+  }
+  body {
+    background-color: chartreuse;
+  }
+  body {
+    margin: 0;
+  }
+  
+  .container {
+    height: 100vh;
+    background-image: url(https://i2.haber7.net//haber/haber7/photos/deniz_suyu_ile_fizik_tedavi_olur_mu13868480580_h1104999.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-shadow {
+    align-items: center;
+    justify-content: left;
+    text-shadow: white 1px 1px 5px;
+    color: red;
+  }
+  
+  .shadow {
+    background-color: red;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 1rem;
+    height: 100px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .island-image {
+    align-items: center;
+    justify-content: center;
+    margin: 25px 25px 25px 25px;
+    border-radius: 1rem;
+    height: 60px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .Content1 {
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    color: red;
+  }
+  
+  .box1 {
+    background-color: tomato;
+    flex: 1;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .box2 {
+    background-color: darkviolet;
+    flex: 2;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .box3 {
+    background-color: darkgoldenrod;
+    flex: 3;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .Content2 {
+    align-items: center;
+    justify-content: center;
+    background-color: darkgreen;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    color: slateblue;
+  }
+  
+  .box4 {
+    background-color: darkorange;
+    flex: 4;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .box5 {
+    background-color: purple;
+    flex: 5;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .box6 {
+    background-color: brown;
+    flex: 6;
+    height: 50px;
+    width: 50px;
+  }
+  .Content1 {
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    color: red;
+  }
+  
+  .box1 {
+    background-color: tomato;
+    flex: 1;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .box2 {
+    background-color: darkviolet;
+    flex: 2;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .box3 {
+    background-color: darkgoldenrod;
+    flex: 3;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .Content2 {
+    align-items: center;
+    justify-content: center;
+    background-color: darkgreen;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    color: slateblue;
+  }
+  
+  .box4 {
+    background-color: darkorange;
+    flex: 4;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .box5 {
+    background-color: purple;
+    flex: 5;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .box6 {
+    background-color: brown;
+    flex: 6;
+    height: 50px;
+    width: 50px;
+  }
+  body {
+    margin: 0;
+    color: darkorchid;
+    border-color: magenta;
+  }
+  
+  .mypage0 {
+    background-image: url(https://i2.haber7.net//haber/haber7/photos/deniz_suyu_ile_fizik_tedavi_olur_mu13868480580_h1104999.jpg);
+    align-items: center;
+    justify-content: center;
+    background-color: limegreen;
+    flex: 1;
+    height: 100px;
+    width: 100max;
+    display: flex;
+    flex-direction: column;
+    font-family: "Indie Flower", cursive;
+  }
+  
+  .mypage1 {
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(180, 226, 86);
+    flex: 0;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Indie Flower", cursive;
+  }
+  
+  .mypage2 {
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    flex: 1;
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10rem;
+  }
+  
+  .mypage3 {
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    height: 50px;
+    width: 10rem;
+    display: flex;
+    border-radius: 5rem;
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .my-new-link:hover {
+    background-color: hsl(199, 84%, 70%);
+    color: hsl(199, 84%, 100%);
+    border-color: hsl(199, 84%, 20%);
+  }
+  
+  .my-new-link:visited {
+    background-color: hsl(199, 84%, 45%);
+    color: hsl(199, 84%, 0%);
+    border-color: hsl(199, 84%, 10%);
+  }
+  /* Container holding the image and the text */
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  
+  @media (min-width: 300px) {
+    .mid-bg {
+        background-color: aqua;
+    }
+  
+  .article-container{
+      margin-top: 2rem;
+  
+  }
+  
+  @media (min-width: 300px) {
+      .flex.center {
+          display: flex;
+          justify-content: center;
+      }
+      .article-container {
+  max-width: 400px;
+      }
+  }
+  
+  body {
+      margin: 45;
+      color: rgb(245, 245, 245);
+      background-image: url(https://www.labmanager.com/media/Print_Images/October2017/Oct17_TECH_DigitalData_640x360.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  
+    .imagehpnav-promo-bad.png {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      height: 1000vh;
+      width: 1000vh;
+      display: flex;
+      flex-direction: column;
+      padding: 0rem;
+      border-radius: 0rem;
+      font-family: "Orbitron", sans-serif;
+    }
+    .image-responsive {
+        max-width: 100px;
+        max-height: 100px;
+      
+    } 
+    .text-container {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        padding-right: 0.5;
+        padding-left: 0.5rem;
+    }
+  

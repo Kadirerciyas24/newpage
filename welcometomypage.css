@@ -1,0 +1,31 @@
+body {
+  text-align: left;
+  border-radius: 1rem;
+  color: brown;
+}
+
+.pic {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin: 100px;
+}
+#mainNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  width: 100%;
+  top: 0px;
+  border-radius: 2rem;
+  background: wheat;
+  transition: background 0.4s;
+}
+#mainNav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: space-around;
+  margin-left: 900px;
+  margin-top: 0;
+}

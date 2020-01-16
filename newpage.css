@@ -159,7 +159,7 @@ a[href^="https"]::before {
 .footer {
   color: wheat;
   height: 10rem;
-  background-image: url(/images.png);
+  background-image: url(images.png);
   display: flex;
   align-items: center;
   justify-content: center;

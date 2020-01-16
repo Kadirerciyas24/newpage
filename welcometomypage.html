@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="welcometomypage.css" />
+    <style>
+      div {
+        border-radius: 1rem;
+        width: 1450px;
+        height: 600px;
+        background-color: aqua;
+        -webkit-animation-name: example;
+        -webkit-animation-duration: 4s;
+        animation-name: example;
+        animation-duration: 4s;
+      }
+
+      @-webkit-keyframes example {
+        from {
+          background-color: lightseagreen;
+        }
+        to {
+          background-color: blueviolet;
+        }
+      }
+
+      @keyframes example {
+        from {
+          background-color: orange;
+        }
+        to {
+          background-color: burlywood;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2 id="my-heading"></h2>
+    <script>
+      function animateCSS(element, animationName, callback) {
+        const node = document.querySelector(element);
+        node.classList.add("animated", animationName);
+
+        function handleAnimationEnd() {
+          node.classList.remove("animated", animationName);
+          node.removeEventListener("animationend", handleAnimationEnd);
+
+          if (typeof callback === "function") callback();
+        }
+
+        node.addEventListener("animationend", handleAnimationEnd);
+      }
+
+      document.getElementById("my-animation-button").onclick = function() {
+        animateCSS("#my-heading", "bounce");
+      };
+    </script>
+
+    <div class="MyPage0">
+      <header>
+        <nav>
+          <nav id="mainNav">
+            <ul>
+              <li><a href="#"></a>Home</li>
+              <li><a href="#"></a>Contact</li>
+            </ul>
+          </nav>
+        </nav>
+      </header>
+    </div>
+  </body>
+</html>

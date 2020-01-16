@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/welcometomypage.css"
+    />
+  </head>
+  <h1 id="my-heading" class=" animated">Welcome To My Page</h1>
+
+  <button id="my-animation-button">animate it</button>
+  <script>
+    function animateCSS(element, animationName, callback) {
+      const node = document.querySelector(element);
+      node.classList.add("animated", animationName);
+
+      function handleAnimationEnd() {
+        node.classList.remove("animated", animationName);
+        node.removeEventListener("animationend", handleAnimationEnd);
+
+        if (typeof callback === "function") callback();
+      }
+
+      node.addEventListener("animationend", handleAnimationEnd);
+    }
+
+    document.getElementById("my-animation-button").onclick = function() {
+      animateCSS("#my-heading", "bounce");
+    };
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    div {
+      width: 1505px;
+      height: 600px;
+      background-color: red;
+      -webkit-animation-name: example;
+      -webkit-animation-duration: 4s;
+      animation-name: example;
+      animation-duration: 4s;
+    }
+
+    @-webkit-keyframes example {
+      from {
+        background-color: red;
+      }
+      to {
+        background-color: yellow;
+      }
+    }
+
+    /* Standard syntax */
+    @keyframes example {
+      from {
+        background-color: red;
+      }
+      to {
+        background-color: yellow;
+      }
+    }
+  </style>
+</head>
+<body>
+  <p></p>
+
+  <div></div>
+
+  <p></p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+  />
+</head>
+<body>
+  <h1 id="my-heading" class=" animated">Hello World</h1>
+
+  <button id="my-animation-button">animate it</button>
+  <script>
+    function animateCSS(element, animationName, callback) {
+      const node = document.querySelector(element);
+      node.classList.add("animated", animationName);
+
+      function handleAnimationEnd() {
+        node.classList.remove("animated", animationName);
+        node.removeEventListener("animationend", handleAnimationEnd);
+
+        if (typeof callback === "function") callback();
+      }
+
+      node.addEventListener("animationend", handleAnimationEnd);
+    }
+
+    document.getElementById("my-animation-button").onclick = function() {
+      animateCSS("#my-heading", "bounce");
+    };
+  </script>
+    
+    <section>
+      <h1>
+        About Me
+      </h1>
+      <h2>
+        Hi, I am a web developer based in Leipzig, Germany. I have specialized
+        in IT fields such as in HTML, HTML5, CSS and web development in the last
+        1 year. And I have now taken the path of a web developer, to bring ideas
+        and the future to you.
+      </h2>
+
+      <form action="https://mailthis.to/kadirerciyas@hotmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your name" />
+        <input type="email" name="_replyto" placeholder="Your email" />
+        <input type="submit" value="Send" />
+      </form>
+
+      <nav>
+        <a href="/html/">HTML</a> | <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/jquery/">jQuery</a>
+      </nav>
+      <h1>
+        About Me
+      </h1>
+      <h2>
+        Hi, I am a web developer based in Leipzig, Germany. I have specialized
+        in IT fields such as in HTML, HTML5, CSS and web development in the last
+        1 year. And I have now taken the path of a web developer, to bring ideas
+        and the future to you.
+      </h2>
+
+      <form action="https://mailthis.to/kadirerciyas@hotmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your name" />
+        <input type="email" name="_replyto" placeholder="Your email" />
+        <input type="submit" value="Send" />
+      </form>
+
+      <nav>
+        <a href="/html/">HTML</a> | <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/jquery/">jQuery</a>
+      </nav>
+    </section>
+    <div class="MyPage0">
+      <h1 class="white-text-with-black-shadow first-heading">
+        Thank You AGENTUR!
+      </h1>
+
+      <p class="white-text-with-black-shadow the-text">
+        Sehr geehrte Frau Höritzsch,
+        <br />
+        <br />
+        ich möchte mich bei Ihnen bedanken,
+        <br />
+        weil Sie mich bei der Teilnahme an einem
+        <br />
+        Web Development Kurs bei der DCI
+        <br />
+        Untersützt haben.
+        <br />
+        <br />
+        Mit freundlichen Grüßen
+        <br />
+        <br />
+        Kadir Erciyas
+      </p>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />    
+
+      <div class="Content1">
+        box
+        <div class="box1">A</div>
+        <div class="box2">B</div>
+        <div class="box3">C</div>
+      </div>
+  
+      <h4>Content2</h4>
+  
+      <div class="Content2">
+        box
+        <div class="box4">A</div>
+        <div class="box5">B</div>
+        <div class="box6">C</div>
+    </div>
+    <div>
+      <nav>
+        <ul>
+          <a href="mailto:kadirerciyas@hotmail.com">E-Mail</a>
+        </ul>
+      </nav>
+    </div>
+    <br />
+    <br />
+    <img
+      src="/sub-folder/5628f8c6cdb9d.jpg"
+      height="150px"
+      width="744px"
+      alt="test"
+      href="/sub-folder/test-sub-file.html"
+    />
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <h1>Welcome To My Page</h1>
+    <p>About Me</p>
+
+    <p>
+      <img
+        src="/sub-folder/File_000.jpeg"
+        height="180px"
+        width="160px"
+        alt="test"
+        href="/sub-folder/test-sub-file.html"
+      />
+    </p>
+    <h2>The formtarget Attribute</h2>
+    <p>
+      The formtarget attribute specifies a name or a keyword that indicates
+      where to display the response that is received after submitting the form.
+    </p>
+
+    <form action="https://mailthis.to/kadirerciyas@hotmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your name" />
+      <input type="email" name="_replyto" placeholder="Your email" />
+      <input type="submit" value="Send" />
+    </form>
+
+    <p>
+      <strong>Note:</strong> The formtarget attribute of the input tag is not
+      supported in Internet Explorer 9 and earlier versions.
+    </p>
+
+    <nav>
+      <a href="/html/">HTML</a> | <a href="/css/">CSS</a> |
+      <a href="/js/">JavaScript</a> |
+      <a href="/jquery/">jQuery</a>
+    </nav>
+    <header></header>
+
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Contact</li>
+        <li>About me</li>
+      </ul>
+    </nav>
+
+    <main></main>
+
+    <footer></footer>
+    <header></header>
+
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Contact</li>
+        <li>About me</li>
+      </ul>
+    </nav>
+    <header>
+      <h1>4 Webpage</h1>
+    </header>
+    <div>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <h2 class="my-4-webpage">My Personal Webpage</h2>
+    </main>
+    <h1 class="my-first-webpage">My Personal Webpage</h1>
+    <footer>
+      <h2 id="my-4-headline" class="my-first-webpage">My 4 webpage</h2>
+    </footer>
+    <div class="box-model-test">
+      <div class="box-model-2"></div>
+    </div>
+    <div class="compare-model-test">
+      content 2
+    </div>
+    <div class="AGE">I AM 38 YEARS OLD</div>
+    <div class="who">I am Kadir</div>
+    <div class="where">Izmir</div>
+    <div class="where1">From Turkey</div>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>Contact</li>
+        <li>About me</li>
+      </ul>
+    </nav>
+
+    <h4>This element has moderate padding.</h4>
+    <h3>The padding is huge in this element!</h3>
+
+    <ul>
+      <li><a href="https://hotmail.com">Website</a></li>
+      <li><a href="mailto:kadirerciyas@hotmail.com">Email</a></li>
+      <li><a href="tel:+12362371996">Phone</a></li>
+    </ul>
+
+    <div class="box">
+      <h2>Background Colors</h2>
+      <p>Try changing the background <span>colors</span>.</p>
+    </div>
+    <br />
+    <br />
+    <div class="box"></div>
+    <br />
+    <img src="/File_000.jpeg" />
+    <br />
+    <br />
+    <div class="box"></div>
+    <br />
+    <br />
+
+    <div class="box">
+      Ich komme aus der Türkei.
+      <div class="container">
+        <h1>
+          my imaginary travel
+        </h1>
+
+        <div class="text-shadow">
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+          </ul>
+        </div>
+        <div class="shadow">
+          <div>
+            <img
+              class="island-image"
+              src="https://heise.cloudimg.io/width/700/q75.png-lossy-75.webp-lossy-75.foil1/_www-heise-de_/tp/imgs/89/2/1/4/0/3/8/7/b4640aa1fe7fa3b6.jpeg"
+              alt="island"
+            />
+          </div>
+          <ul>
+            <p>come to sees and explore the water world</p>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <h1>my test index file</h1>
+
+    <img src="/island-image" alt="" />
+    <link
+      rel="stylesheet"
+      href="https://heise.cloudimg.io/width/700/q75.png-lossy-75.webp-lossy-75.foil1/_www-heise-de_/tp/imgs/89/2/1/4/0/3/8/7/b4640aa1fe7fa3b6.jpeg"
+    />
+    <div class="mypage0">
+      HOME
+    </div>
+    <div class="mypage1">
+      ABOUT US
+      <br />
+      <br />
+    </div>
+    <div class="mypage2">
+      EXPLORE
+      <br />
+      <br />
+      CAMPAIGN
+      <br />
+      <br />
+      SERVICE
+      <br />
+      <br />
+      CONTACT
+      <br />
+      <ul>
+        <li><a href="https://gmail.com">Website</a></li>
+        <li><a href="mailto:kadirerciyas22@gmail.com">Email</a></li>
+        <li><a href="tel:+12362371996">Phone</a></li>
+      </ul>
+      <br />
+    </div>
+    <br />
+    <br />
+
+    <div class="flex-center">
+      <a class="my-new-link mypage3" href="https://google.com?dzggbuhzgu"
+        >send an email</a
+      >
+    </div>
+
+    <br />
+    <br />
+    <h1>
+      get started first mobile design
+    </h1>
+    <p>
+      mobile web design
+    </p>
+    <div class="flex center">
+      <div class="article container">
+        This is the first day for the mobile design to work on.
+      </div>
+      </div>
+
+    <div>
+      Mobile websites have begun to look, work, and perform better than ever as
+      we have progressively begun to consider various device sizes in our
+      designs. The restrictive nature of mobile has forced marketers, designers,
+      and developers to consider the implications of specific functionality on
+      smaller screen sizes.
+    </div>
+    <h1>What is Mobile Web Design?</h1>
+
+    <div class="flex center">
+      <div class=" article container"></div>
+    </div>
+    <div>
+      What exactly is mobile-friendly web design? At its simplest, mobile
+      friendly design means your website's information – images, texts, videos,
+      links – is easily and readily accessible across all different platforms
+      and, most particularly, on the much smaller screen of smartphones and
+      tablets.Jan 5, 2018
+    </div>
+    <div>
+      <img src="/hpnav-promo-bad.png" />
+    </div>
+
+    <a href="#">Try hovering over me!</a>
+
+    <main></main>
+
+    <footer></footer>
+      
+  </body>
+
+  <br />
+  <br />
+  <br />
+</html>
